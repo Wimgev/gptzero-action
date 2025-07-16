@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Detector de Texto IA",
+  "name_for_model": "gptzeroAIDetector",
+  "description_for_human": "Analiza textos y detecta si fueron generados por inteligencia artificial.",
+  "description_for_model": "Envía un texto y recibe una probabilidad de si fue generado por IA usando GPTZero.",
+  "auth": {
+    "type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://wingev.github.io/gptzero-action/openapi.yaml"
+  },
+  "logo_url": "https://wingev.github.io/gptzero-action/logo.png",
+  "contact_email": "tuemail@dominio.com",
+  "legal_info_url": "https://wingev.github.io/gptzero-action/politica-de-privacidad.html"
+}
